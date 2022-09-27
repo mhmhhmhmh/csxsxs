@@ -1,0 +1,198 @@
+/* обнулящий код */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+body {
+  background-color: rgb(232, 232, 232);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  padding: 4px;
+}
+
+/* информация */
+
+.block {
+  margin: 2.86cm 5cm;
+}
+
+.block p {
+  padding: 5px 0 5px 35px;
+  background: url("check_icon.png") left no-repeat;
+}
+
+.text {
+  margin: 1cm 5cm;
+  width: 761px;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text::first-line {
+  color: red;
+}
+
+.text2 {
+  margin: 1cm 5cm;
+  width: 765px;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text2::first-letter {
+  color: red;
+}
+
+.block p:nth-child(1) {
+  text-decoration: line-through;
+}
+
+.block p:nth-child(2) {
+  font-weight: 700;
+}
+
+.block p:nth-child(3) {
+  font-style: oblique;
+}
+
+.block p:nth-child(4) {
+  text-transform: uppercase;
+}
+
+/* hover effect */
+.block_hover {
+  margin: 1.5cm 5cm;
+}
+
+.block_hover                                                                                                                           p:before {
+  content: "";
+  padding: 5px 0 5px 35px;
+  background: url("check_icon.png") left no-repeat;
+}
+
+.block_hover p:hover {
+  color: red;
+}
+
+/* поиковик инпут */
+
+.textinput {
+  border: 1px solid #cacacaf3;
+  margin: 0 4.7cm;
+  width: 5.2cm;
+  height: 1cm;
+}
+
+.textinput:focus {
+  box-shadow: 0 0 10px #80b7b3;
+}
+
+/* кнопка */
+
+.textbutton {
+  display: block;
+  background-color: #80b7b3;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 0 10px #80b7b3;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 4cm;
+  height: 0.85cm;
+  margin: 2.86cm 5.5cm;
+}
+
+.textbutton:hover {
+  background-color: #3a5856;
+}
+
+.textbutton:active {
+  background-color: #818181;
+}
